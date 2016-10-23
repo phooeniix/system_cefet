@@ -1,0 +1,7 @@
+.conteudo{
+	margin-top:80px;
+}
+.input-group-addon{
+	min-width: 80px;
+	text-align: left !important;
+}
