@@ -1,4 +1,7 @@
 <?php
+ini_set("display_errors",1);
+ini_set("display_startups_errors",1);
+error_reporting("E_ALL");
 	class Departamento{
 		public function controler(){
 			try{

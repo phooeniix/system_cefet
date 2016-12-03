@@ -3,7 +3,7 @@ class BuscaD{
 	private $condicao1;
 	private $condicao2;
 	private $tabela;
-	
+
 	public function __construct($tabela = NULL, $condicao1 = NULL, $condicao2 = NULL) {
 		$conexao = Transacao::get();
 		$this->condicao1 = $condicao1;
@@ -14,9 +14,6 @@ class BuscaD{
 		try {
 			$conexao = Transacao::get();
 			$sql = "SELECT * FROM $this->tabela WHERE $this->condicao1 AND $this->condicao2" ;
-
-			
-						
 			$resultado = $conexao->Query($sql);
 			if($resultado->rowCount()==0) {
 				$retorno["erro"] = true;

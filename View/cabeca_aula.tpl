@@ -1,8 +1,8 @@
 [@professor_aula]
 
-<button type="button" id="addAula" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#insereEdita"> 
+<button type="button" id="addAula" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#insereEdita">
 	<span class="glyphicon glyphicon-plus-sign"></span>
- 	Adicionar 
+ 	Adicionar
 </button>
 
 <div class="modal fade" id="insereEdita" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -40,7 +40,12 @@
 					</div>
 					<div class="input-group">
 						<span class="input-group-addon">Grupo</span>
-						<input type="text" class="form-control" placeholder="Grupo" name="grupo">
+						<select name="grupo" class="form-control">
+							<option value='0'> Selecione uma opção</option>
+							<option value='G1'>G1</option>
+							<option value='G2'>G2</option>
+							<option value='all'>TODOS</option>
+						</select>
 					</div>
 	      			<div class="modal-footer">
 	       				<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>

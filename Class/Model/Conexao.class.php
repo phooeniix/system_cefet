@@ -3,8 +3,8 @@ final class Conexao {
 	private function __construct() {}
 
 	public static function open() {
-		$usuario = "user_admin";
-		$senha = "usuario123";
+		$usuario = "root";
+		$senha = "administrador";
 		$bancodedados= "DB_MANAGER";
 		$host= "127.0.0.1";
 		$porta = "3306";

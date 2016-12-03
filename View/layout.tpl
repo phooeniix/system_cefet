@@ -22,7 +22,7 @@
             		<span class="icon-bar"></span>
             		<span class="icon-bar"></span>
           		</button>
-          		<a class="navbar-brand" href="?">Aqui vai uma Imagem</a>
+          		<a class="navbar-brand" href="#">Aqui vai uma Imagem</a>
         	</div>
         	<div id="navbar" class="navbar-collapse collapse">
           		<ul class="nav navbar-nav">
@@ -43,13 +43,12 @@
         	</div><!--/.nav-collapse -->
     	</div>
     </div>
-        
+
  	<div class="container">
        <div class="conteudo">
 			[@conteudo]
        </div>
-    </div>
-    <script type="text/javascript" scr="controler/disciplina.js"></script>
+  </div>
 	</body>
 </html>
 		<!-- Formulário para Status -->
@@ -71,7 +70,7 @@
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-		
+
 		<!-- Formulário para Confirmação -->
 		<div class="modal fade" id="confirma">
 		  <div class="modal-dialog">
@@ -90,5 +89,3 @@
 		    </div>
 		  </div>
 		</div>
-	     
-	 

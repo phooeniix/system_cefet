@@ -2,7 +2,7 @@
 class Busca {
 	private $condicao;
 	private $tabela;
-	
+
 	public function __construct($tabela = NULL, $condicao = NULL) {
 		$conexao = Transacao::get();
 		$this->condicao = $condicao;

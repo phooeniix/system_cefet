@@ -1,11 +1,11 @@
 <?php
 class Professor{
-	
+
 	public function controler() {
 		try {
 			$lista = new Lista("departamento");
 			$departamento = $lista->model();
-			
+
 			$cabecalho = new Template("View/cabeca_professor.tpl");
 			if(!$departamento["erro"]) {
 				$dados_depart = array();
