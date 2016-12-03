@@ -19,9 +19,9 @@
 				}else{
 					$conteudo_tabela = "";
 				}
-				
+
 				$cabecalho->set("tabela", $conteudo_tabela);
-				
+
 				$retorno["erro"] = false;
 				$retorno["msg"] = $cabecalho->saida();
 			}

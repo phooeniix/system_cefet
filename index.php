@@ -1,4 +1,7 @@
 <?php
+ini_set("display_errors",1);
+ini_set("display_startups_errors",1);
+error_reporting("E_ALL");
 function __autoload($classe){
 	$pastas = array('Model', 'Controler');
 	foreach ($pastas as $pasta)	{
